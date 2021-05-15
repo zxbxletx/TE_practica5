@@ -1,0 +1,7 @@
+create database bd_blog
+create table usuarios (id int(11) auto_increment primary key, usuario varchar(20),
+password varchar(255))
+create table posts (id int(11) auto_increment primary key, fecha date, titulo
+varchar(100), contenido text)
+insert into usuarios(usuario,password) value ("zxbxletx","zxbx123");
+insert into usuarios(usuario,password) value ("juan","123")
